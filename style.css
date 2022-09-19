@@ -41,7 +41,7 @@ body {
 
 .accordian-body {
   position: relative;
-  /* padding: 20px; */
+  padding: 0 20px;
   cursor: pointer;
   background-color: rgb(222, 172, 111);
   font-size: 1.2em;
@@ -50,9 +50,9 @@ body {
   overflow: hidden;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: all ease;
+  transition: all ease-in 0.5s;
 }
 .active {
-  height: 150px;
+  height: max-content;
   padding: 20px;
 }
